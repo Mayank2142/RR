@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "cutoff": "2026-11-11",
+  "source": "RR supplied data pack",
+  "scope": "Descriptive pressure reliability in the supplied 2022-2026 sample; not a forecast or confirmed auction shortlist.",
+  "missing": [
+    "Primary extras run amounts",
+    "Exact running team score and RRR for all chases",
+    "Verified 2027 auction availability",
+    "Complete injury and domestic form coverage"
+  ],
+  "pressure_definition": "Pre-delivery resource stress for batters; established batting resistance for bowlers. Rules are asymmetric because the same wicket can reduce bowling stress while increasing batting stress.",
+  "bat_rules": [
+    "Overs 1-6 with at least 2 wickets lost",
+    "Overs 7-10 with at least 3 wickets lost and partnership off-bat runs below 30",
+    "Overs 11-15 with at least 5 wickets lost",
+    "Second innings, overs 16-20, at least 4 wickets lost",
+    "Knockout, over 11 onward, at least 3 wickets lost"
+  ],
+  "bowl_rules": [
+    "Overs 16-20 with striker having at least 20 recorded off-bat runs",
+    "Overs 16-20 with at least 35 partnership off-bat runs",
+    "Overs 10-15 with at most 3 wickets lost and striker having at least 30 off-bat runs",
+    "Knockout, over 11 onward, striker at least 15 or partnership at least 25 off-bat runs"
+  ],
+  "moderate_rules": "If no high rule: batting is moderate for death phase, 2+ wickets, or knockout; bowling is moderate for death phase, striker 15+, partnership 25+, or knockout. Otherwise normal.",
+  "metric_scope": "Every model run and rate uses legal deliveries in validated, non-revised, completed regular innings only. Legal-ball scoring rate is not official strike rate; off-bat runs per six legal deliveries is not economy. A zero off-bat delivery may still concede extras.",
+  "baseline": "Competition family x match year x phase x innings x batting-position group (bat) or pace/spin (bowl), shrunk with 240 balls toward the matching global phase/innings/role cell.",
+  "quality": "Bat: recorded runs minus expected runs - 12 x (striker-dismissal indicator minus expectation). Bowl: expected runs minus recorded runs + 12 x (credited wicket indicator minus expectation). The 12-run wicket tradeoff is an analyst assumption, not a measured win-probability effect.",
+  "normal_comparator": "All non-high deliveries (normal + moderate); same context adjustment. High and non-high means shrink toward zero with 120 balls.",
+  "components": {
+    "pressure": "65% percentile of shrunken high-pressure quality + 35% percentile of high-minus-non-high quality.",
+    "consistency": "50% percentile of pressure-innings success frequency (quality > 0, minimum 3 high balls, Beta(4,4) smoothing) + 50% inverted percentile of pressure-innings quality variability (8-innings variance prior).",
+    "adaptability": "Batter: percentile of mean shrunken quality across observed phases with at least 24 balls. Bowl: this column represents wicket-taking, and is replaced by percentile of context-adjusted credited wicket rate.",
+    "efficiency": "Batter: mean of scoring-residual and survival-residual percentiles. Bowl: this column represents run control, and is replaced by percentile of off-bat run suppression.",
+    "match_impact": "Unavailable. No calibrated win-probability model or complete score state. Original 10% weight omitted and remaining 90% renormalised.",
+    "confidence": "100 x sqrt[high_balls/(high_balls+120) x pressure_innings_with_3plus_balls/(that_count+10)]."
+  },
+  "weights": {
+    "pressure": 0.3889,
+    "consistency": 0.2222,
+    "adaptability": 0.1667,
+    "efficiency": 0.1667,
+    "confidence": 0.0556
+  },
+  "original_weights": {
+    "pressure": 0.35,
+    "consistency": 0.2,
+    "adaptability": 0.15,
+    "efficiency": 0.15,
+    "match_impact": 0.1,
+    "confidence": 0.05
+  },
+  "eligibility": {
+    "bat": {
+      "balls": 300,
+      "high_balls": 80,
+      "innings": 15,
+      "high_innings": 8
+    },
+    "bowl": {
+      "balls": 360,
+      "high_balls": 100,
+      "innings": 15,
+      "high_innings": 10
+    }
+  },
+  "activity_rule": "At least one eligible appearance in 2025 or 2026. This is a data recency gate, not confirmation of active status.",
+  "normalisation": "Midrank empirical percentiles across the eligible category. Ties equal. Component normalization held fixed in bootstrap.",
+  "uncertainty": "300 independent within-player innings-cluster bootstrap draws, seed 202711. Resamples all phase and pressure observations of an innings together, recalculates score components, holds eligibility and peer normalization fixed. Conditional 95% intervals do not include classification, cohort or source measurement uncertainty.",
+  "validation": "400 Dirichlet weight scenarios (concentration 200), stricter/looser pre-ball rules, wicket-value sensitivity 8/16 runs, opportunity-gate sensitivity, IPL-only comparison, conventional rate comparison and chronological 2022-2024 vs 2025-2026 validation.",
+  "limitations": [
+    "Extras missing prevents full scoreboard pressure and economy. Source-derived pressure covers resource stress and batting resistance only.",
+    "No T20 World Cup, SMAT, VHT or Ranji files supplied. No claim of exhaustive world cricket coverage.",
+    "Context cell baselines are in-sample, including each player. Bootstrap holds the baseline fixed.",
+    "Adjacent ranks with overlapping intervals are uncertain. Weights and pressure thresholds are analyst choices.",
+    "Scoring rate, survival and wickets are related; component weights are a transparent heuristic, not independently estimated effects.",
+    "Squad fit is conditional analyst interpretation; no bid prices, purse, nationality or availability inferred."
+  ]
+}

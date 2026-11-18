@@ -1,0 +1,19 @@
+/* Analytical copy stays readable at normal zoom. */
+.profile-download{float:right;margin-bottom:20px}
+@media(max-width:760px){.hero h2{font-size:27px}}
+.page-heading p,.card-heading p,.metric-note,.table-context,.filter-note,.tiny-player small,.cell-note,.scope-note,.profile-identity p,.baseline-strip>span,.player-tile>p,.tile-metrics>span,.role-label,.availability,.page-footer{color:#7c6d87}
+.card-heading p,.metric-note,.tiny-player small,.cell-note,.filter-note,.scope-note,.baseline-strip>span,.tile-metrics>span,.availability{font-size:10px}
+.insight-card>p,.insight-row p,.method-card>p,.component-docs p,.strategy-player p:not(.role-label),.source-links small,.limitations,blockquote,.rule-list{color:#786381;font-size:12px;line-height:1.8}
+.method-card dl>div,.component-values span,.validation-summary span,.validation-summary small,.profile-score small,.profile-score>span:not(.score),.source-links small{color:#846b90}
+th{font-size:10px;color:#776184}td{font-size:12px;color:#705b7b}.player-cell strong,.tiny-player strong{font-size:12px}.player-cell small{font-size:10px;color:#8e7799}
+.search-field input,.select-field select{font-size:11px;color:#705579}.search-field input::placeholder{color:#9a86a5}
+.eyebrow{color:#8d6f9d}.text-link{color:#9d4b89;font-size:11px}.rank,.table-rank{font-size:11px;color:#9678a6}
+.info-button{color:#8c6a9d}.segmented button{font-size:10px;color:#886d98}.segmented button.active{color:#8a467b}
+.insight-row strong,.block-label,.strategy-player h3,.component-docs h3{font-size:12px;color:#825b91}
+.button{font-size:11px}.tiny-score{font-size:14px}.metric-top{font-size:11px}.nav-item{font-size:12px}
+.component-values strong,.baseline-strip strong{font-size:14px;color:#8a538b}.baseline-strip>span{font-size:10px}
+.formula{color:#784787}.validation-summary span{font-size:11px}.validation-summary small{font-size:10px}.validation-caution{color:#91674e!important}
+.data-warning p{color:#92794f;font-size:11px}.data-warning strong{color:#806342}.strategy-note p{color:#82678f;font-size:11px}.strategy-note strong{color:#775185}
+.picker-chip{font-size:10px;color:#8e709e}.profile-identity p{font-size:11px}.profile-score small{font-size:10px}
+.tag{font-size:9px}.submission-list strong{font-size:13px}.source-rows{font-size:10px;color:#8f759c}
+@media(max-width:760px){.page-heading p{font-size:11px}.metric-note{font-size:9px}.metric-top{font-size:10px}.tiny-player strong,.player-cell strong{font-size:12px}.tiny-player small,.player-cell small{font-size:10px}.scope-note{font-size:10px}.button{font-size:10px}.component-values span{font-size:9px}.component-values strong{font-size:12px}.validation-summary span{font-size:10px}.validation-summary small{font-size:9px}.category-banner p,.filter-note{font-size:9px}.select-field select{font-size:10px}.source-links small{font-size:10px}.profile-identity h1{font-size:23px}.submission-list strong{font-size:12px}.page-footer{font-size:9px}.metric>strong{font-size:26px}}

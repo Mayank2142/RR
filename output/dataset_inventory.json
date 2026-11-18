@@ -1,0 +1,1304 @@
+{
+  "files": [
+    {
+      "file": "6af3166e7b922_data_pack\\ball_by_ball.csv",
+      "bytes": 41071609,
+      "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+      "rows": 200999,
+      "columns": 33,
+      "exact_duplicate_rows": 0,
+      "fields": [
+        {
+          "name": "match_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 867,
+          "examples": [
+            "13511",
+            "13512",
+            "13513",
+            "13514",
+            "13515",
+            "13522"
+          ],
+          "meaning": "Match join key. Unique in matches, repeated for deliveries and XIs."
+        },
+        {
+          "name": "innings",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 4,
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "meaning": "Innings number; 3/4 are super overs and excluded from main model."
+        },
+        {
+          "name": "overid",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 20,
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "meaning": "One-based over index (1-20). Defines phase, not legal balls elapsed."
+        },
+        {
+          "name": "over_ball_num",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 13,
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "meaning": "Sequential delivery within over including illegal deliveries."
+        },
+        {
+          "name": "innings_ball_num",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 136,
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "meaning": "Sequential delivery event within innings, including illegal balls."
+        },
+        {
+          "name": "batting_team_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 38,
+          "examples": [
+            "22",
+            "28",
+            "18",
+            "20",
+            "27",
+            "1"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "bowling_team_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 38,
+          "examples": [
+            "28",
+            "22",
+            "18",
+            "27",
+            "20",
+            "8"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "striker_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 888,
+          "examples": [
+            "1187",
+            "6273",
+            "1596",
+            "1210",
+            "478",
+            "1924"
+          ],
+          "meaning": "Canonical striker identity. Join by ID, never fuzzy names."
+        },
+        {
+          "name": "striker_name",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 885,
+          "examples": [
+            "Jason Roy",
+            "Tom Banton",
+            "Moeen Ali",
+            "James Vince",
+            "Eoin Morgan",
+            "Sam Billings"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "non_striker_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 867,
+          "examples": [
+            "6273",
+            "1210",
+            "478",
+            "1924",
+            "722",
+            "786"
+          ],
+          "meaning": "Canonical non-striker identity."
+        },
+        {
+          "name": "non_striker_name",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 864,
+          "examples": [
+            "Tom Banton",
+            "James Vince",
+            "Eoin Morgan",
+            "Sam Billings",
+            "Liam Dawson",
+            "Chris Jordan"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "bowler_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 647,
+          "examples": [
+            "1772",
+            "2633",
+            "2417",
+            "6726",
+            "4840",
+            "494"
+          ],
+          "meaning": "Canonical bowler identity."
+        },
+        {
+          "name": "bowler_name",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 646,
+          "examples": [
+            "Sheldon Cottrell",
+            "Jason Holder",
+            "Akeal Hosein",
+            "Romario Shepherd",
+            "Odean Smith",
+            "Kieron Pollard"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "batting_type",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "RHB",
+            "LHB"
+          ],
+          "meaning": "Batting handedness, descriptive."
+        },
+        {
+          "name": "bowling_type",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 12,
+          "examples": [
+            "Left-arm fast-medium",
+            "Right-arm medium-fast",
+            "Slow left-arm orthodox",
+            "Right-arm Fast",
+            "Right-arm fast-medium",
+            "Right-arm Leg-Break"
+          ],
+          "meaning": "Bowling style, descriptive and role grouping."
+        },
+        {
+          "name": "batting_order",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 13,
+          "examples": [
+            "1",
+            "2",
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "meaning": "Recorded batting position. Used for descriptive role grouping."
+        },
+        {
+          "name": "runs",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 7,
+          "examples": [
+            "0",
+            "6",
+            "4",
+            "1",
+            "2",
+            "3"
+          ],
+          "meaning": "Recorded off-bat runs. Extras are not included. Not team runs."
+        },
+        {
+          "name": "is_four",
+          "dtype": "bool",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "False",
+            "True"
+          ],
+          "meaning": "Boundary flag, checked against runs; mismatches flagged."
+        },
+        {
+          "name": "is_six",
+          "dtype": "bool",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "False",
+            "True"
+          ],
+          "meaning": "Boundary flag, checked against runs; mismatches flagged."
+        },
+        {
+          "name": "is_wicket",
+          "dtype": "bool",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "False",
+            "True"
+          ],
+          "meaning": "Wicket event; distinguish team wickets, striker dismissal and bowler credit."
+        },
+        {
+          "name": "dismissal_type_id",
+          "dtype": "float64",
+          "nulls": 190118,
+          "distinct": 8,
+          "examples": [
+            "1.0",
+            "2.0",
+            "5.0",
+            "4.0",
+            "3.0",
+            "9.0"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "dismissal_type",
+          "dtype": "str",
+          "nulls": 190118,
+          "distinct": 9,
+          "examples": [
+            "Bowled",
+            "Caught",
+            "Stump",
+            "RunOut",
+            "LBW",
+            "Retire Out"
+          ],
+          "meaning": "Dismissal description. RunOut/retire/obstruction not credited to bowler."
+        },
+        {
+          "name": "dismissed_player_id",
+          "dtype": "float64",
+          "nulls": 190107,
+          "distinct": 814,
+          "examples": [
+            "1187.0",
+            "6273.0",
+            "1596.0",
+            "1210.0",
+            "1924.0",
+            "722.0"
+          ],
+          "meaning": "Actual dismissed batter ID; may be non-striker."
+        },
+        {
+          "name": "extras_type",
+          "dtype": "str",
+          "nulls": 189167,
+          "distinct": 6,
+          "examples": [
+            "wide",
+            "legbyes",
+            "byes",
+            "Overstep",
+            "other",
+            "Penalty"
+          ],
+          "meaning": "Extra category; Overstep treated as known no-ball. Other remains ambiguous."
+        },
+        {
+          "name": "extras1_runs",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 7,
+          "examples": [
+            "6",
+            "2",
+            "3",
+            "4",
+            "1",
+            "5"
+          ],
+          "meaning": "MISLABELLED category code: 1 Overstep, 2 wide, 3 legbyes, 4 byes, 5 other, 6 none, 7 Penalty. Never sum as runs."
+        },
+        {
+          "name": "extras_2_runs",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 3,
+          "examples": [
+            "0",
+            "4",
+            "1"
+          ],
+          "meaning": "Sparse secondary extras value. Cannot restore missing primary extras quantities."
+        },
+        {
+          "name": "pace_or_spin",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "Pace",
+            "Spin"
+          ],
+          "meaning": "Bowling family, used for style-split summaries."
+        },
+        {
+          "name": "bowl_speed",
+          "dtype": "float64",
+          "nulls": 0,
+          "distinct": 1033,
+          "examples": [
+            "0.0",
+            "126.0",
+            "127.0",
+            "133.0",
+            "132.0",
+            "131.0"
+          ],
+          "meaning": "Recorded speed; zeros/coverage inspected, not used in scoring."
+        },
+        {
+          "name": "stroke",
+          "dtype": "str",
+          "nulls": 6158,
+          "distinct": 30,
+          "examples": [
+            "Cover Drive",
+            "Flick",
+            "Square Cut",
+            "Backfoot defensive",
+            "Pull shot",
+            "Frontfoot defensive"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "delivery_style",
+          "dtype": "str",
+          "nulls": 391,
+          "distinct": 34,
+          "examples": [
+            "Inswing",
+            "Seamed In",
+            "Full Toss",
+            "Out Swing",
+            "Angled Away",
+            "Yorker"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "over_or_around",
+          "dtype": "str",
+          "nulls": 407,
+          "distinct": 2,
+          "examples": [
+            "Over",
+            "Around"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "on_or_off",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "Off-side",
+            "On-side"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "delivery_ist_time",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 200826,
+          "examples": [
+            "2022-01-23 00:00:00 UTC",
+            "2022-01-23 02:08:52 UTC",
+            "2022-01-23 02:09:20 UTC",
+            "2022-01-23 02:10:48 UTC",
+            "2022-01-23 02:11:19 UTC",
+            "2022-01-23 02:11:39 UTC"
+          ],
+          "meaning": "Mostly date-level timestamps; not used as chronological ball ordering."
+        }
+      ]
+    },
+    {
+      "file": "6af3166e7b922_data_pack\\competition_team_player_mapping.csv",
+      "bytes": 462969,
+      "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+      "rows": 6413,
+      "columns": 6,
+      "exact_duplicate_rows": 0,
+      "fields": [
+        {
+          "name": "comp_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 140,
+          "examples": [
+            "1331",
+            "1335",
+            "1345",
+            "1358",
+            "1435",
+            "1439"
+          ],
+          "meaning": "Competition join key, with format and season in competitions."
+        },
+        {
+          "name": "comp_name",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 140,
+          "examples": [
+            "England in West Indies T20I Series 2022",
+            "West Indies in India T20I Series 2022",
+            "Sri Lanka in Australia T20I Series 2022",
+            "IPL 2022",
+            "Australia in Sri Lanka T20I Series 2022",
+            "South Africa in India T20I Series 2022"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "team_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 38,
+          "examples": [
+            "22",
+            "28",
+            "18",
+            "20",
+            "27",
+            "1"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "team_name",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 38,
+          "examples": [
+            "England",
+            "West Indies",
+            "India",
+            "Australia",
+            "Sri Lanka",
+            "Chennai Super Kings"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "player_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 1217,
+          "examples": [
+            "478",
+            "479",
+            "722",
+            "786",
+            "1187",
+            "1210"
+          ],
+          "meaning": "Canonical player identity in roster sources."
+        },
+        {
+          "name": "player_name",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 1210,
+          "examples": [
+            "Eoin Morgan",
+            "Adil Rashid",
+            "Liam Dawson",
+            "Chris Jordan",
+            "Jason Roy",
+            "James Vince"
+          ],
+          "meaning": "Source display name. Dropdown spelling not verified from live form."
+        }
+      ]
+    },
+    {
+      "file": "6af3166e7b922_data_pack\\competitions.csv",
+      "bytes": 7624,
+      "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+      "rows": 141,
+      "columns": 4,
+      "exact_duplicate_rows": 0,
+      "fields": [
+        {
+          "name": "comp_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 141,
+          "examples": [
+            "3395",
+            "3405",
+            "3465",
+            "3568",
+            "3482",
+            "3464"
+          ],
+          "meaning": "Competition join key, with format and season in competitions."
+        },
+        {
+          "name": "comp_name",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 141,
+          "examples": [
+            "South Africa in New Zealand T20I Series 2026",
+            "Afghanistan v Sri Lanka T20I Series 2026",
+            "India in Zimbabwe T20I Series 2026",
+            "Bangladesh in Zimbabwe T20I Series 2026",
+            "Australia in Bangladesh T20I Series 2026",
+            "Sri Lanka in West Indies T20I Series 2026"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "match_format",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "T20I",
+            "T20"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "season",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 8,
+          "examples": [
+            "2026",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2022/23"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        }
+      ]
+    },
+    {
+      "file": "6af3166e7b922_data_pack\\matches.csv",
+      "bytes": 123864,
+      "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+      "rows": 883,
+      "columns": 22,
+      "exact_duplicate_rows": 0,
+      "fields": [
+        {
+          "name": "match_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 883,
+          "examples": [
+            "13511",
+            "13512",
+            "13513",
+            "13514",
+            "13515",
+            "13522"
+          ],
+          "meaning": "Match join key. Unique in matches, repeated for deliveries and XIs."
+        },
+        {
+          "name": "comp_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 138,
+          "examples": [
+            "1331",
+            "1335",
+            "1345",
+            "1358",
+            "1435",
+            "1439"
+          ],
+          "meaning": "Competition join key, with format and season in competitions."
+        },
+        {
+          "name": "match_number",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 75,
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "match_date",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 686,
+          "examples": [
+            "2022-01-22",
+            "2022-01-23",
+            "2022-01-26",
+            "2022-01-29",
+            "2022-01-30",
+            "2022-02-16"
+          ],
+          "meaning": "Match date and analytical cutoff, not delivery_ist_time."
+        },
+        {
+          "name": "stage",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 7,
+          "examples": [
+            "League",
+            "Qualifier",
+            "Eliminator",
+            "Final",
+            "Others",
+            "Semi Final"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "venue_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 98,
+          "examples": [
+            "54",
+            "8",
+            "44",
+            "129",
+            "17",
+            "3"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "venue_country",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 17,
+          "examples": [
+            "West Indies",
+            "India",
+            "Australia",
+            "Sri Lanka",
+            "Zimbabwe",
+            "Ireland"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "home_team_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 36,
+          "examples": [
+            "28",
+            "18",
+            "20",
+            "1",
+            "7",
+            "4"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "home_team",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 36,
+          "examples": [
+            "West Indies",
+            "India",
+            "Australia",
+            "Chennai Super Kings",
+            "Delhi Capitals",
+            "Punjab Kings"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "away_team_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 36,
+          "examples": [
+            "22",
+            "28",
+            "27",
+            "8",
+            "2",
+            "5"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "away_team",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 36,
+          "examples": [
+            "England",
+            "West Indies",
+            "Sri Lanka",
+            "Kolkata Knight Riders",
+            "Mumbai Indians",
+            "Royal Challengers Bengaluru"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "home_team_captain_id",
+          "dtype": "float64",
+          "nulls": 44,
+          "distinct": 89,
+          "examples": [
+            "494.0",
+            "126.0",
+            "250.0",
+            "152.0",
+            "4703.0",
+            "992.0"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "away_team_captain_id",
+          "dtype": "float64",
+          "nulls": 45,
+          "distinct": 98,
+          "examples": [
+            "478.0",
+            "1596.0",
+            "494.0",
+            "2436.0",
+            "3647.0",
+            "126.0"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "toss_win_team_id",
+          "dtype": "float64",
+          "nulls": 15,
+          "distinct": 37,
+          "examples": [
+            "28.0",
+            "22.0",
+            "18.0",
+            "27.0",
+            "20.0",
+            "8.0"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "toss_opted",
+          "dtype": "str",
+          "nulls": 15,
+          "distinct": 2,
+          "examples": [
+            "Fielding",
+            "Batting"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "man_of_the_match",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 293,
+          "examples": [
+            "0",
+            "4986",
+            "1699",
+            "830",
+            "286",
+            "403"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "first_inn_revised_overs",
+          "dtype": "float64",
+          "nulls": 858,
+          "distinct": 13,
+          "examples": [
+            "114.0",
+            "84.0",
+            "66.0",
+            "48.0",
+            "72.0",
+            "102.0"
+          ],
+          "meaning": "Observed values 30-114 indicate revised legal-ball allocation despite label. Exclude revised games in primary model."
+        },
+        {
+          "name": "second_inn_revised_overs",
+          "dtype": "float64",
+          "nulls": 858,
+          "distinct": 12,
+          "examples": [
+            "114.0",
+            "42.0",
+            "48.0",
+            "72.0",
+            "90.0",
+            "102.0"
+          ],
+          "meaning": "Observed values 30-114 indicate revised legal-ball allocation despite label. Exclude revised games in primary model."
+        },
+        {
+          "name": "revised_target",
+          "dtype": "float64",
+          "nulls": 860,
+          "distinct": 23,
+          "examples": [
+            "143.0",
+            "56.0",
+            "91.0",
+            "130.0",
+            "171.0",
+            "104.0"
+          ],
+          "meaning": "Revised chase target where provided; insufficient for all chases."
+        },
+        {
+          "name": "knock_out",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "meaning": "Pre-match knockout indicator, used in pressure rules."
+        },
+        {
+          "name": "win_team_id",
+          "dtype": "float64",
+          "nulls": 41,
+          "distinct": 36,
+          "examples": [
+            "28.0",
+            "22.0",
+            "18.0",
+            "20.0",
+            "27.0",
+            "8.0"
+          ],
+          "meaning": "Result team. Used only in descriptive outcome summaries, not pressure labels."
+        },
+        {
+          "name": "result",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 670,
+          "examples": [
+            "West Indies Won by 9 Wickets",
+            "England Won by 1 Run",
+            "West Indies Won by 20 runs",
+            "England Won by 34 runs",
+            "West Indies Won by 17 runs",
+            "India Won by 6 Wickets"
+          ],
+          "meaning": "Final result text. Never used to label pre-delivery pressure."
+        }
+      ]
+    },
+    {
+      "file": "6af3166e7b922_data_pack\\playing_eleven.csv",
+      "bytes": 966287,
+      "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+      "rows": 28381,
+      "columns": 9,
+      "exact_duplicate_rows": 0,
+      "fields": [
+        {
+          "name": "match_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 880,
+          "examples": [
+            "13511",
+            "13512",
+            "13513",
+            "13514",
+            "13515",
+            "13522"
+          ],
+          "meaning": "Match join key. Unique in matches, repeated for deliveries and XIs."
+        },
+        {
+          "name": "team_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 38,
+          "examples": [
+            "22",
+            "28",
+            "18",
+            "20",
+            "27",
+            "1"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "player_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 1082,
+          "examples": [
+            "1187",
+            "6273",
+            "1210",
+            "1596",
+            "478",
+            "1924"
+          ],
+          "meaning": "Canonical player identity in roster sources."
+        },
+        {
+          "name": "batting_order",
+          "dtype": "float64",
+          "nulls": 8678,
+          "distinct": 13,
+          "examples": [
+            "1.0",
+            "2.0",
+            "3.0",
+            "4.0",
+            "5.0",
+            "6.0"
+          ],
+          "meaning": "Recorded batting position. Used for descriptive role grouping."
+        },
+        {
+          "name": "is_played",
+          "dtype": "bool",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "True",
+            "False"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "is_captain",
+          "dtype": "object",
+          "nulls": 8667,
+          "distinct": 2,
+          "examples": [
+            "False",
+            "True"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "is_wk",
+          "dtype": "object",
+          "nulls": 8667,
+          "distinct": 2,
+          "examples": [
+            "False",
+            "True"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "is_impact",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "is_impact_off",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 2,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        }
+      ]
+    },
+    {
+      "file": "6af3166e7b922_data_pack\\Round 1 Problem Statement _ SupeRR Selector Season 2.docx.pdf",
+      "bytes": 254082,
+      "sha256": "8f7965c616d4a64b779e770a6b2c17dde6a2d6ccbf7de12a58b04db792162489",
+      "kind": "Official problem-statement PDF"
+    },
+    {
+      "file": "6af3166e7b922_data_pack\\teams.csv",
+      "bytes": 6922,
+      "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+      "rows": 353,
+      "columns": 3,
+      "exact_duplicate_rows": 0,
+      "fields": [
+        {
+          "name": "comp_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 141,
+          "examples": [
+            "1331",
+            "1335",
+            "1345",
+            "1358",
+            "1435",
+            "1439"
+          ],
+          "meaning": "Competition join key, with format and season in competitions."
+        },
+        {
+          "name": "team_id",
+          "dtype": "int64",
+          "nulls": 0,
+          "distinct": 38,
+          "examples": [
+            "22",
+            "28",
+            "18",
+            "20",
+            "27",
+            "1"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        },
+        {
+          "name": "team_name",
+          "dtype": "str",
+          "nulls": 0,
+          "distinct": 38,
+          "examples": [
+            "England",
+            "West Indies",
+            "India",
+            "Australia",
+            "Sri Lanka",
+            "Chennai Super Kings"
+          ],
+          "meaning": "Descriptive source field; not a direct score input."
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "delivery_rows": 200999,
+    "matches_with_deliveries": 867,
+    "match_metadata_rows": 883,
+    "metadata_without_deliveries": [
+      31281,
+      31284,
+      31288,
+      32610,
+      32612,
+      32622,
+      36210,
+      36564,
+      38797,
+      40761,
+      41502,
+      41503,
+      42030,
+      46008,
+      48513,
+      50189
+    ],
+    "orphan_delivery_matches": [],
+    "orphan_match_competitions": [],
+    "duplicate_delivery_event_keys": 0,
+    "duplicate_match_keys": 0,
+    "date_min": "2022-01-22",
+    "date_max": "2026-11-01",
+    "extra_code_cross_tab": {
+      "Overstep": {
+        "1": 576,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      },
+      "Penalty": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1
+      },
+      "byes": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 529,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      },
+      "legbyes": {
+        "1": 0,
+        "2": 0,
+        "3": 2748,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      },
+      "none": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 189167,
+        "7": 0
+      },
+      "other": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 264,
+        "6": 0,
+        "7": 0
+      },
+      "wide": {
+        "1": 0,
+        "2": 7714,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    },
+    "ambiguous_other_rows": 264,
+    "boundary_flag_mismatches": 23,
+    "nonpositive_speed_rows": 77862,
+    "super_over_rows": 38,
+    "revised_match_rows": 34,
+    "player_ids_with_multiple_names": {},
+    "names_with_multiple_ids": {
+      "Abdul Samad": [
+        7446,
+        6922
+      ],
+      "Bashir Ahmad": [
+        39479,
+        29833
+      ],
+      "Basil Hameed": [
+        8638,
+        39444
+      ],
+      "Haider Ali": [
+        7338,
+        28756
+      ],
+      "Mohammad Ali": [
+        3083,
+        20229
+      ],
+      "Muhammad Farooq": [
+        27373,
+        28978
+      ],
+      "Rashid Khan": [
+        4722,
+        20172
+      ]
+    },
+    "formats": {
+      "T20I": 134,
+      "T20": 7
+    },
+    "seasons": {
+      "2024": 33,
+      "2025": 33,
+      "2026": 25,
+      "2022": 25,
+      "2023": 20,
+      "2022/23": 3,
+      "2023/24": 1,
+      "2024/25": 1
+    }
+  }
+}

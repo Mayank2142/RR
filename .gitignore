@@ -1,0 +1,16 @@
+node_modules/
+.npm-cache/
+frontend/dist/
+.venv/
+__pycache__/
+*.pyc
+.env
+.vercel/
+tmp/
+6af3166e7b922_data_pack/
+output/delivery_evidence.csv.gz
+output/*_innings_features.csv.gz
+site/
+output/logs/
+output/shortlist/Verified_Scoreboard.csv.gz
+output/pdf/players/

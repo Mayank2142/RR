@@ -1,0 +1,21 @@
+{
+  "delivery": "local-only",
+  "dashboard": "http://127.0.0.1:5173/",
+  "report_pages": 26,
+  "analytics_checks_passed": 8,
+  "api_checks_passed": 5,
+  "production_build": "passed",
+  "browser_checks": [
+    "rankings search",
+    "player evidence",
+    "comparison",
+    "pressure filters",
+    "model limitations",
+    "desktop layout",
+    "390px mobile navigation and charts",
+    "submission name lists"
+  ],
+  "original_files": "SHA256 unchanged",
+  "deployment": "not created",
+  "unused_project_requires_user_deletion": true
+}

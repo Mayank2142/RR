@@ -1,0 +1,3181 @@
+{
+  "source_snapshot": "fef1d7322223",
+  "status": "Robustness diagnostics; published order unchanged",
+  "categories": {
+    "bat": [
+      {
+        "name": "Mahendra Singh Dhoni",
+        "id": 8,
+        "published_rank": 1,
+        "tier": "Substantial",
+        "high_matches": 17,
+        "largest_match_share": 0.128,
+        "point": 3.1835021030579482,
+        "worst_single_match_removal": 2.6614108004677357,
+        "single_match_swing": 0.5220913025902125,
+        "positive_pressure_matches": 12,
+        "meaningful_pressure_matches": 16,
+        "smoothed_match_success": 0.7,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 78,
+              "matches": 5,
+              "adjusted_runs_per_six": 1.459,
+              "evidence": "supported"
+            },
+            {
+              "context": "2023",
+              "high_balls": 20,
+              "matches": 2,
+              "adjusted_runs_per_six": 7.108,
+              "evidence": "thin"
+            },
+            {
+              "context": "2024",
+              "high_balls": 27,
+              "matches": 2,
+              "adjusted_runs_per_six": 11.723,
+              "evidence": "thin"
+            },
+            {
+              "context": "2025",
+              "high_balls": 86,
+              "matches": 8,
+              "adjusted_runs_per_six": 3.409,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 211,
+              "matches": 17,
+              "adjusted_runs_per_six": 4.103,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 139,
+              "matches": 14,
+              "adjusted_runs_per_six": 5.859,
+              "evidence": "supported"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 67,
+              "matches": 7,
+              "adjusted_runs_per_six": 0.564,
+              "evidence": "supported"
+            },
+            {
+              "context": "Powerplay",
+              "high_balls": 5,
+              "matches": 1,
+              "adjusted_runs_per_six": 2.677,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 211,
+              "matches": 17,
+              "adjusted_runs_per_six": 4.103,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 120,
+              "matches": 15,
+              "adjusted_runs_per_six": 4.776,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 91,
+              "matches": 11,
+              "adjusted_runs_per_six": 3.215,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 211,
+              "matches": 17,
+              "adjusted_runs_per_six": 4.103,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 211,
+              "matches": 17,
+              "adjusted_runs_per_six": 4.103,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Faf du Plessis",
+        "id": 88,
+        "published_rank": 2,
+        "tier": "Substantial",
+        "high_matches": 9,
+        "largest_match_share": 0.243,
+        "point": 1.8001271061345665,
+        "worst_single_match_removal": 0.8634243807912736,
+        "single_match_swing": 0.9367027253432929,
+        "positive_pressure_matches": 5,
+        "meaningful_pressure_matches": 8,
+        "smoothed_match_success": 0.5833333333333334,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 26,
+              "matches": 1,
+              "adjusted_runs_per_six": 2.118,
+              "evidence": "thin"
+            },
+            {
+              "context": "2023",
+              "high_balls": 31,
+              "matches": 3,
+              "adjusted_runs_per_six": 9.378,
+              "evidence": "thin"
+            },
+            {
+              "context": "2024",
+              "high_balls": 10,
+              "matches": 2,
+              "adjusted_runs_per_six": -0.603,
+              "evidence": "thin"
+            },
+            {
+              "context": "2025",
+              "high_balls": 40,
+              "matches": 3,
+              "adjusted_runs_per_six": -1.092,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 107,
+              "matches": 9,
+              "adjusted_runs_per_six": 2.767,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 2,
+              "matches": 1,
+              "adjusted_runs_per_six": -43.384,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 29,
+              "matches": 4,
+              "adjusted_runs_per_six": 0.345,
+              "evidence": "supported"
+            },
+            {
+              "context": "Powerplay",
+              "high_balls": 76,
+              "matches": 8,
+              "adjusted_runs_per_six": 4.906,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 107,
+              "matches": 9,
+              "adjusted_runs_per_six": 2.767,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 62,
+              "matches": 9,
+              "adjusted_runs_per_six": 5.42,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 45,
+              "matches": 6,
+              "adjusted_runs_per_six": -0.887,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 107,
+              "matches": 9,
+              "adjusted_runs_per_six": 2.767,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 107,
+              "matches": 9,
+              "adjusted_runs_per_six": 2.767,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Dinesh Karthik",
+        "id": 143,
+        "published_rank": 3,
+        "tier": "Substantial",
+        "high_matches": 23,
+        "largest_match_share": 0.143,
+        "point": 1.8543815074620407,
+        "worst_single_match_removal": 0.9747305706839685,
+        "single_match_swing": 0.8796509367780722,
+        "positive_pressure_matches": 12,
+        "meaningful_pressure_matches": 20,
+        "smoothed_match_success": 0.5833333333333334,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 102,
+              "matches": 12,
+              "adjusted_runs_per_six": 1.664,
+              "evidence": "supported"
+            },
+            {
+              "context": "2023",
+              "high_balls": 36,
+              "matches": 4,
+              "adjusted_runs_per_six": -0.768,
+              "evidence": "supported"
+            },
+            {
+              "context": "2024",
+              "high_balls": 106,
+              "matches": 7,
+              "adjusted_runs_per_six": 4.281,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 207,
+              "matches": 17,
+              "adjusted_runs_per_six": 3.113,
+              "evidence": "supported"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 37,
+              "matches": 6,
+              "adjusted_runs_per_six": -1.314,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 108,
+              "matches": 13,
+              "adjusted_runs_per_six": 2.065,
+              "evidence": "supported"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 136,
+              "matches": 16,
+              "adjusted_runs_per_six": 2.741,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 213,
+              "matches": 19,
+              "adjusted_runs_per_six": 3.01,
+              "evidence": "supported"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 3.937,
+              "evidence": "thin"
+            },
+            {
+              "context": "United Kingdom",
+              "high_balls": 24,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.835,
+              "evidence": "thin"
+            },
+            {
+              "context": "West Indies",
+              "high_balls": 6,
+              "matches": 1,
+              "adjusted_runs_per_six": -0.859,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 151,
+              "matches": 21,
+              "adjusted_runs_per_six": 2.472,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 93,
+              "matches": 17,
+              "adjusted_runs_per_six": 2.394,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 244,
+              "matches": 23,
+              "adjusted_runs_per_six": 2.442,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 224,
+              "matches": 21,
+              "adjusted_runs_per_six": 3.115,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 20,
+              "matches": 2,
+              "adjusted_runs_per_six": -5.091,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Rashid Khan",
+        "id": 4722,
+        "published_rank": 4,
+        "tier": "Substantial",
+        "high_matches": 32,
+        "largest_match_share": 0.113,
+        "point": 1.6981162292936458,
+        "worst_single_match_removal": 0.6034949210107525,
+        "single_match_swing": 1.0946213082828933,
+        "positive_pressure_matches": 15,
+        "meaningful_pressure_matches": 26,
+        "smoothed_match_success": 0.5666666666666667,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 31,
+              "matches": 3,
+              "adjusted_runs_per_six": 4.817,
+              "evidence": "thin"
+            },
+            {
+              "context": "2023",
+              "high_balls": 67,
+              "matches": 5,
+              "adjusted_runs_per_six": 7.49,
+              "evidence": "supported"
+            },
+            {
+              "context": "2024",
+              "high_balls": 57,
+              "matches": 8,
+              "adjusted_runs_per_six": -2.064,
+              "evidence": "supported"
+            },
+            {
+              "context": "2025",
+              "high_balls": 81,
+              "matches": 8,
+              "adjusted_runs_per_six": 2.909,
+              "evidence": "supported"
+            },
+            {
+              "context": "2026",
+              "high_balls": 48,
+              "matches": 8,
+              "adjusted_runs_per_six": -5.137,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 161,
+              "matches": 20,
+              "adjusted_runs_per_six": 3.155,
+              "evidence": "supported"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 123,
+              "matches": 12,
+              "adjusted_runs_per_six": 0.119,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 128,
+              "matches": 20,
+              "adjusted_runs_per_six": 3.4,
+              "evidence": "supported"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 156,
+              "matches": 19,
+              "adjusted_runs_per_six": 0.56,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 168,
+              "matches": 22,
+              "adjusted_runs_per_six": 2.768,
+              "evidence": "supported"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 111,
+              "matches": 9,
+              "adjusted_runs_per_six": 1.051,
+              "evidence": "supported"
+            },
+            {
+              "context": "Zimbabwe",
+              "high_balls": 5,
+              "matches": 1,
+              "adjusted_runs_per_six": -11.803,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 161,
+              "matches": 31,
+              "adjusted_runs_per_six": 1.197,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 123,
+              "matches": 19,
+              "adjusted_runs_per_six": 2.682,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 284,
+              "matches": 32,
+              "adjusted_runs_per_six": 1.84,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 236,
+              "matches": 27,
+              "adjusted_runs_per_six": 2.391,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 48,
+              "matches": 5,
+              "adjusted_runs_per_six": -0.866,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Ravindra Jadeja",
+        "id": 152,
+        "published_rank": 5,
+        "tier": "Substantial",
+        "high_matches": 35,
+        "largest_match_share": 0.076,
+        "point": 0.7345773224609693,
+        "worst_single_match_removal": 0.5124770319659889,
+        "single_match_swing": 0.22210029049498037,
+        "positive_pressure_matches": 20,
+        "meaningful_pressure_matches": 29,
+        "smoothed_match_success": 0.6666666666666666,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 62,
+              "matches": 9,
+              "adjusted_runs_per_six": -2.341,
+              "evidence": "supported"
+            },
+            {
+              "context": "2023",
+              "high_balls": 43,
+              "matches": 4,
+              "adjusted_runs_per_six": 4.874,
+              "evidence": "supported"
+            },
+            {
+              "context": "2024",
+              "high_balls": 69,
+              "matches": 7,
+              "adjusted_runs_per_six": 1.823,
+              "evidence": "supported"
+            },
+            {
+              "context": "2025",
+              "high_balls": 91,
+              "matches": 10,
+              "adjusted_runs_per_six": -0.631,
+              "evidence": "supported"
+            },
+            {
+              "context": "2026",
+              "high_balls": 92,
+              "matches": 5,
+              "adjusted_runs_per_six": 2.248,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 314,
+              "matches": 30,
+              "adjusted_runs_per_six": 1.089,
+              "evidence": "supported"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 43,
+              "matches": 5,
+              "adjusted_runs_per_six": -0.058,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 144,
+              "matches": 18,
+              "adjusted_runs_per_six": 0.577,
+              "evidence": "supported"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 155,
+              "matches": 23,
+              "adjusted_runs_per_six": 0.795,
+              "evidence": "supported"
+            },
+            {
+              "context": "Powerplay",
+              "high_balls": 58,
+              "matches": 9,
+              "adjusted_runs_per_six": 2.298,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 314,
+              "matches": 30,
+              "adjusted_runs_per_six": 1.089,
+              "evidence": "supported"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 16,
+              "matches": 1,
+              "adjusted_runs_per_six": -1.837,
+              "evidence": "thin"
+            },
+            {
+              "context": "United Kingdom",
+              "high_balls": 13,
+              "matches": 2,
+              "adjusted_runs_per_six": 0.042,
+              "evidence": "thin"
+            },
+            {
+              "context": "West Indies",
+              "high_balls": 14,
+              "matches": 2,
+              "adjusted_runs_per_six": 1.881,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 227,
+              "matches": 33,
+              "adjusted_runs_per_six": 2.474,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 130,
+              "matches": 22,
+              "adjusted_runs_per_six": -1.708,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 357,
+              "matches": 35,
+              "adjusted_runs_per_six": 0.951,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 330,
+              "matches": 34,
+              "adjusted_runs_per_six": 0.787,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 27,
+              "matches": 1,
+              "adjusted_runs_per_six": 2.959,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Basil Hameed",
+        "id": 8638,
+        "published_rank": 6,
+        "tier": "Supporting",
+        "high_matches": 5,
+        "largest_match_share": 0.394,
+        "point": 0.7733181969475869,
+        "worst_single_match_removal": -0.08789781397167783,
+        "single_match_swing": 0.8612160109192647,
+        "positive_pressure_matches": 4,
+        "meaningful_pressure_matches": 5,
+        "smoothed_match_success": 0.6666666666666666,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Positive impact turns negative after removing a match"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 40,
+              "matches": 3,
+              "adjusted_runs_per_six": 1.659,
+              "evidence": "thin"
+            },
+            {
+              "context": "2023",
+              "high_balls": 28,
+              "matches": 1,
+              "adjusted_runs_per_six": 3.851,
+              "evidence": "thin"
+            },
+            {
+              "context": "2026",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": -20.994,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "T20I",
+              "high_balls": 71,
+              "matches": 5,
+              "adjusted_runs_per_six": 1.566,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 24,
+              "matches": 3,
+              "adjusted_runs_per_six": -1.403,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 47,
+              "matches": 5,
+              "adjusted_runs_per_six": 3.082,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "Oman",
+              "high_balls": 20,
+              "matches": 2,
+              "adjusted_runs_per_six": 2.122,
+              "evidence": "thin"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 51,
+              "matches": 3,
+              "adjusted_runs_per_six": 1.348,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 23,
+              "matches": 2,
+              "adjusted_runs_per_six": 1.378,
+              "evidence": "thin"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 48,
+              "matches": 5,
+              "adjusted_runs_per_six": 1.656,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 71,
+              "matches": 5,
+              "adjusted_runs_per_six": 1.566,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 71,
+              "matches": 5,
+              "adjusted_runs_per_six": 1.566,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Haider Ali",
+        "id": 7338,
+        "published_rank": 7,
+        "tier": "Supporting",
+        "high_matches": 4,
+        "largest_match_share": 0.385,
+        "point": 0.34207952509822953,
+        "worst_single_match_removal": -0.23485500141130372,
+        "single_match_swing": 0.5769345265095333,
+        "positive_pressure_matches": 2,
+        "meaningful_pressure_matches": 3,
+        "smoothed_match_success": 0.5714285714285714,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Positive impact turns negative after removing a match"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 24,
+              "matches": 3,
+              "adjusted_runs_per_six": 4.589,
+              "evidence": "thin"
+            },
+            {
+              "context": "2024",
+              "high_balls": 15,
+              "matches": 1,
+              "adjusted_runs_per_six": -2.108,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "Emerging T20",
+              "high_balls": 15,
+              "matches": 1,
+              "adjusted_runs_per_six": -2.108,
+              "evidence": "thin"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 24,
+              "matches": 3,
+              "adjusted_runs_per_six": 4.589,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": 0.043,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 25,
+              "matches": 2,
+              "adjusted_runs_per_six": 2.546,
+              "evidence": "thin"
+            },
+            {
+              "context": "Powerplay",
+              "high_balls": 7,
+              "matches": 1,
+              "adjusted_runs_per_six": 2.084,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "New Zealand",
+              "high_balls": 17,
+              "matches": 2,
+              "adjusted_runs_per_six": 5.621,
+              "evidence": "thin"
+            },
+            {
+              "context": "Oman",
+              "high_balls": 15,
+              "matches": 1,
+              "adjusted_runs_per_six": -2.108,
+              "evidence": "thin"
+            },
+            {
+              "context": "Pakistan",
+              "high_balls": 7,
+              "matches": 1,
+              "adjusted_runs_per_six": 2.084,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 18,
+              "matches": 3,
+              "adjusted_runs_per_six": 0.877,
+              "evidence": "thin"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 21,
+              "matches": 2,
+              "adjusted_runs_per_six": 2.988,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 39,
+              "matches": 4,
+              "adjusted_runs_per_six": 2.014,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 9,
+              "matches": 2,
+              "adjusted_runs_per_six": 7.844,
+              "evidence": "thin"
+            },
+            {
+              "context": "1",
+              "high_balls": 30,
+              "matches": 2,
+              "adjusted_runs_per_six": 0.264,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Virat Kohli",
+        "id": 47,
+        "published_rank": 8,
+        "tier": "Substantial",
+        "high_matches": 14,
+        "largest_match_share": 0.211,
+        "point": 0.16714093235877814,
+        "worst_single_match_removal": -0.3989580401738547,
+        "single_match_swing": 0.5660989725326329,
+        "positive_pressure_matches": 8,
+        "meaningful_pressure_matches": 12,
+        "smoothed_match_success": 0.625,
+        "flags": [
+          "Positive impact turns negative after removing a match"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 22,
+              "matches": 4,
+              "adjusted_runs_per_six": -0.77,
+              "evidence": "thin"
+            },
+            {
+              "context": "2023",
+              "high_balls": 17,
+              "matches": 2,
+              "adjusted_runs_per_six": 2.139,
+              "evidence": "thin"
+            },
+            {
+              "context": "2024",
+              "high_balls": 32,
+              "matches": 3,
+              "adjusted_runs_per_six": -3.309,
+              "evidence": "thin"
+            },
+            {
+              "context": "2025",
+              "high_balls": 13,
+              "matches": 1,
+              "adjusted_runs_per_six": -4.219,
+              "evidence": "thin"
+            },
+            {
+              "context": "2026",
+              "high_balls": 39,
+              "matches": 4,
+              "adjusted_runs_per_six": 3.984,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 111,
+              "matches": 12,
+              "adjusted_runs_per_six": -0.367,
+              "evidence": "supported"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 12,
+              "matches": 2,
+              "adjusted_runs_per_six": 4.565,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 21,
+              "matches": 4,
+              "adjusted_runs_per_six": 5.151,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 64,
+              "matches": 7,
+              "adjusted_runs_per_six": -0.49,
+              "evidence": "supported"
+            },
+            {
+              "context": "Powerplay",
+              "high_balls": 38,
+              "matches": 8,
+              "adjusted_runs_per_six": -1.652,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 122,
+              "matches": 13,
+              "adjusted_runs_per_six": 0.107,
+              "evidence": "supported"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 0.959,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 74,
+              "matches": 13,
+              "adjusted_runs_per_six": 1.209,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 49,
+              "matches": 9,
+              "adjusted_runs_per_six": -1.539,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 123,
+              "matches": 14,
+              "adjusted_runs_per_six": 0.114,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 84,
+              "matches": 12,
+              "adjusted_runs_per_six": -0.37,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 39,
+              "matches": 2,
+              "adjusted_runs_per_six": 1.157,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Abdul Samad",
+        "id": 7446,
+        "published_rank": 9,
+        "tier": "Supporting",
+        "high_matches": 21,
+        "largest_match_share": 0.156,
+        "point": 0.0009211759864744401,
+        "worst_single_match_removal": -0.5115977216669664,
+        "single_match_swing": 0.5125188976534408,
+        "positive_pressure_matches": 7,
+        "meaningful_pressure_matches": 17,
+        "smoothed_match_success": 0.42857142857142855,
+        "flags": [
+          "Positive impact turns negative after removing a match"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": -73.738,
+              "evidence": "thin"
+            },
+            {
+              "context": "2023",
+              "high_balls": 38,
+              "matches": 4,
+              "adjusted_runs_per_six": -1.576,
+              "evidence": "supported"
+            },
+            {
+              "context": "2024",
+              "high_balls": 43,
+              "matches": 8,
+              "adjusted_runs_per_six": -1.737,
+              "evidence": "supported"
+            },
+            {
+              "context": "2025",
+              "high_balls": 39,
+              "matches": 4,
+              "adjusted_runs_per_six": 3.537,
+              "evidence": "supported"
+            },
+            {
+              "context": "2026",
+              "high_balls": 33,
+              "matches": 4,
+              "adjusted_runs_per_six": 1.979,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 154,
+              "matches": 21,
+              "adjusted_runs_per_six": -0.033,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 65,
+              "matches": 11,
+              "adjusted_runs_per_six": -2.559,
+              "evidence": "supported"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 89,
+              "matches": 15,
+              "adjusted_runs_per_six": 1.812,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 154,
+              "matches": 21,
+              "adjusted_runs_per_six": -0.033,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 96,
+              "matches": 19,
+              "adjusted_runs_per_six": -0.221,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 58,
+              "matches": 13,
+              "adjusted_runs_per_six": 0.278,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 154,
+              "matches": 21,
+              "adjusted_runs_per_six": -0.033,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 137,
+              "matches": 18,
+              "adjusted_runs_per_six": 1.095,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 17,
+              "matches": 3,
+              "adjusted_runs_per_six": -9.123,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Shikhar Dhawan",
+        "id": 142,
+        "published_rank": 10,
+        "tier": "Substantial",
+        "high_matches": 8,
+        "largest_match_share": 0.357,
+        "point": -0.9883951437735878,
+        "worst_single_match_removal": -1.7267220944267914,
+        "single_match_swing": 0.7383269506532035,
+        "positive_pressure_matches": 3,
+        "meaningful_pressure_matches": 7,
+        "smoothed_match_success": 0.45454545454545453,
+        "flags": [
+          "One match supplies over 35% of pressure balls"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 25,
+              "matches": 4,
+              "adjusted_runs_per_six": -1.617,
+              "evidence": "supported"
+            },
+            {
+              "context": "2023",
+              "high_balls": 52,
+              "matches": 3,
+              "adjusted_runs_per_six": -0.648,
+              "evidence": "thin"
+            },
+            {
+              "context": "2024",
+              "high_balls": 7,
+              "matches": 1,
+              "adjusted_runs_per_six": -9.624,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 84,
+              "matches": 8,
+              "adjusted_runs_per_six": -1.684,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Middle",
+              "high_balls": 38,
+              "matches": 3,
+              "adjusted_runs_per_six": -0.113,
+              "evidence": "thin"
+            },
+            {
+              "context": "Powerplay",
+              "high_balls": 46,
+              "matches": 7,
+              "adjusted_runs_per_six": -2.982,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 84,
+              "matches": 8,
+              "adjusted_runs_per_six": -1.684,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 45,
+              "matches": 7,
+              "adjusted_runs_per_six": -0.768,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 39,
+              "matches": 5,
+              "adjusted_runs_per_six": -2.741,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 84,
+              "matches": 8,
+              "adjusted_runs_per_six": -1.684,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 84,
+              "matches": 8,
+              "adjusted_runs_per_six": -1.684,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Rohit Sharma",
+        "id": 126,
+        "published_rank": null,
+        "tier": "Supporting",
+        "high_matches": 8,
+        "largest_match_share": 0.236,
+        "point": -1.7621935239594362,
+        "worst_single_match_removal": -2.8614567462743654,
+        "single_match_swing": 1.0992632223149292,
+        "positive_pressure_matches": 3,
+        "meaningful_pressure_matches": 6,
+        "smoothed_match_success": 0.5,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 8,
+              "matches": 2,
+              "adjusted_runs_per_six": -4.662,
+              "evidence": "thin"
+            },
+            {
+              "context": "2023",
+              "high_balls": 2,
+              "matches": 1,
+              "adjusted_runs_per_six": -41.864,
+              "evidence": "thin"
+            },
+            {
+              "context": "2024",
+              "high_balls": 30,
+              "matches": 3,
+              "adjusted_runs_per_six": 0.168,
+              "evidence": "thin"
+            },
+            {
+              "context": "2026",
+              "high_balls": 15,
+              "matches": 2,
+              "adjusted_runs_per_six": -4.053,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 47,
+              "matches": 6,
+              "adjusted_runs_per_six": -2.967,
+              "evidence": "supported"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 8,
+              "matches": 2,
+              "adjusted_runs_per_six": -4.662,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 13,
+              "matches": 1,
+              "adjusted_runs_per_six": 6.098,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 1.744,
+              "evidence": "thin"
+            },
+            {
+              "context": "Powerplay",
+              "high_balls": 41,
+              "matches": 6,
+              "adjusted_runs_per_six": -6.287,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 48,
+              "matches": 7,
+              "adjusted_runs_per_six": -2.869,
+              "evidence": "supported"
+            },
+            {
+              "context": "United Kingdom",
+              "high_balls": 7,
+              "matches": 1,
+              "adjusted_runs_per_six": -5.577,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 40,
+              "matches": 6,
+              "adjusted_runs_per_six": -1.877,
+              "evidence": "supported"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 15,
+              "matches": 4,
+              "adjusted_runs_per_six": -6.779,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 55,
+              "matches": 8,
+              "adjusted_runs_per_six": -3.214,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 55,
+              "matches": 8,
+              "adjusted_runs_per_six": -3.214,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Dwayne Bravo",
+        "id": 161,
+        "published_rank": null,
+        "tier": "Provisional",
+        "high_matches": 3,
+        "largest_match_share": 0.882,
+        "point": -1.336433149355147,
+        "worst_single_match_removal": -1.4847052668441885,
+        "single_match_swing": 0.14827211748904157,
+        "positive_pressure_matches": 0,
+        "meaningful_pressure_matches": 1,
+        "smoothed_match_success": 0.4,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Fewer than four pressure matches"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 17,
+              "matches": 3,
+              "adjusted_runs_per_six": -6.865,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 17,
+              "matches": 3,
+              "adjusted_runs_per_six": -6.865,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 4.342,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 16,
+              "matches": 2,
+              "adjusted_runs_per_six": -7.566,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 17,
+              "matches": 3,
+              "adjusted_runs_per_six": -6.865,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 9,
+              "matches": 2,
+              "adjusted_runs_per_six": -0.864,
+              "evidence": "thin"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 8,
+              "matches": 2,
+              "adjusted_runs_per_six": -13.616,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 17,
+              "matches": 3,
+              "adjusted_runs_per_six": -6.865,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 17,
+              "matches": 3,
+              "adjusted_runs_per_six": -6.865,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Ishant Sharma",
+        "id": 28,
+        "published_rank": null,
+        "tier": "Unrated",
+        "high_matches": 2,
+        "largest_match_share": 0.571,
+        "point": -0.1675821490504467,
+        "worst_single_match_removal": -0.14674741319093634,
+        "single_match_swing": -0.020834735859510345,
+        "positive_pressure_matches": 0,
+        "meaningful_pressure_matches": 2,
+        "smoothed_match_success": 0.3333333333333333,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Fewer than four pressure matches"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2024",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.749,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.749,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.749,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.749,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.749,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.749,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.749,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Piyush Chawla",
+        "id": 23,
+        "published_rank": null,
+        "tier": "Unrated",
+        "high_matches": 6,
+        "largest_match_share": 0.462,
+        "point": -3.779119916001094,
+        "worst_single_match_removal": -4.325358685449675,
+        "single_match_swing": 0.5462387694485811,
+        "positive_pressure_matches": 0,
+        "meaningful_pressure_matches": 3,
+        "smoothed_match_success": 0.2857142857142857,
+        "flags": [
+          "One match supplies over 35% of pressure balls"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2023",
+              "high_balls": 14,
+              "matches": 2,
+              "adjusted_runs_per_six": -5.944,
+              "evidence": "thin"
+            },
+            {
+              "context": "2024",
+              "high_balls": 12,
+              "matches": 4,
+              "adjusted_runs_per_six": -20.623,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 26,
+              "matches": 6,
+              "adjusted_runs_per_six": -12.719,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 15,
+              "matches": 5,
+              "adjusted_runs_per_six": -19.122,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 11,
+              "matches": 2,
+              "adjusted_runs_per_six": -3.988,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 26,
+              "matches": 6,
+              "adjusted_runs_per_six": -12.719,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 20,
+              "matches": 6,
+              "adjusted_runs_per_six": -16.395,
+              "evidence": "thin"
+            },
+            {
+              "context": "Spin",
+              "high_balls": 6,
+              "matches": 2,
+              "adjusted_runs_per_six": -0.465,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 26,
+              "matches": 6,
+              "adjusted_runs_per_six": -12.719,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 24,
+              "matches": 5,
+              "adjusted_runs_per_six": -10.498,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 2,
+              "matches": 1,
+              "adjusted_runs_per_six": -39.362,
+              "evidence": "thin"
+            }
+          ]
+        }
+      }
+    ],
+    "bowl": [
+      {
+        "name": "Amit Mishra",
+        "id": 158,
+        "published_rank": 1,
+        "tier": "Supporting",
+        "high_matches": 5,
+        "largest_match_share": 0.25,
+        "point": 1.7345661450748082,
+        "worst_single_match_removal": 0.9325337551962437,
+        "single_match_swing": 0.8020323898785645,
+        "positive_pressure_matches": 2,
+        "meaningful_pressure_matches": 5,
+        "smoothed_match_success": 0.4444444444444444,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2023",
+              "high_balls": 24,
+              "matches": 5,
+              "adjusted_runs_per_six": 4.584,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 24,
+              "matches": 5,
+              "adjusted_runs_per_six": 4.584,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": 8.503,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 17,
+              "matches": 4,
+              "adjusted_runs_per_six": 2.971,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 24,
+              "matches": 5,
+              "adjusted_runs_per_six": 4.584,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Spin",
+              "high_balls": 24,
+              "matches": 5,
+              "adjusted_runs_per_six": 4.584,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": 0.58,
+              "evidence": "thin"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 21,
+              "matches": 5,
+              "adjusted_runs_per_six": 5.156,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 24,
+              "matches": 5,
+              "adjusted_runs_per_six": 4.584,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Dwayne Bravo",
+        "id": 161,
+        "published_rank": 2,
+        "tier": "Supporting",
+        "high_matches": 5,
+        "largest_match_share": 0.3,
+        "point": 1.3805635451371892,
+        "worst_single_match_removal": 0.4817130477904205,
+        "single_match_swing": 0.8988504973467686,
+        "positive_pressure_matches": 2,
+        "meaningful_pressure_matches": 4,
+        "smoothed_match_success": 0.5,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 30,
+              "matches": 5,
+              "adjusted_runs_per_six": 3.167,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 30,
+              "matches": 5,
+              "adjusted_runs_per_six": 3.167,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 17,
+              "matches": 4,
+              "adjusted_runs_per_six": 4.437,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 13,
+              "matches": 3,
+              "adjusted_runs_per_six": 1.506,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 30,
+              "matches": 5,
+              "adjusted_runs_per_six": 3.167,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 30,
+              "matches": 5,
+              "adjusted_runs_per_six": 3.167,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 17,
+              "matches": 3,
+              "adjusted_runs_per_six": 0.702,
+              "evidence": "thin"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 13,
+              "matches": 4,
+              "adjusted_runs_per_six": 6.391,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 30,
+              "matches": 5,
+              "adjusted_runs_per_six": 3.167,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Haider Ali",
+        "id": 28756,
+        "published_rank": 3,
+        "tier": "Supporting",
+        "high_matches": 6,
+        "largest_match_share": 0.32,
+        "point": 1.4091437252693952,
+        "worst_single_match_removal": 0.11557227023564329,
+        "single_match_swing": 1.293571455033752,
+        "positive_pressure_matches": 2,
+        "meaningful_pressure_matches": 5,
+        "smoothed_match_success": 0.4444444444444444,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2025",
+              "high_balls": 22,
+              "matches": 5,
+              "adjusted_runs_per_six": 2.337,
+              "evidence": "thin"
+            },
+            {
+              "context": "2026",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": 17.283,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "T20I",
+              "high_balls": 25,
+              "matches": 6,
+              "adjusted_runs_per_six": 4.13,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 10,
+              "matches": 3,
+              "adjusted_runs_per_six": 0.293,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 15,
+              "matches": 5,
+              "adjusted_runs_per_six": 6.689,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 25,
+              "matches": 6,
+              "adjusted_runs_per_six": 4.13,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Spin",
+              "high_balls": 25,
+              "matches": 6,
+              "adjusted_runs_per_six": 4.13,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 12,
+              "matches": 3,
+              "adjusted_runs_per_six": -1.947,
+              "evidence": "thin"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 13,
+              "matches": 4,
+              "adjusted_runs_per_six": 9.74,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 25,
+              "matches": 6,
+              "adjusted_runs_per_six": 4.13,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Rashid Khan",
+        "id": 4722,
+        "published_rank": 4,
+        "tier": "Substantial",
+        "high_matches": 74,
+        "largest_match_share": 0.034,
+        "point": 0.9363755651150953,
+        "worst_single_match_removal": 0.5979209322607728,
+        "single_match_swing": 0.33845463285432253,
+        "positive_pressure_matches": 27,
+        "meaningful_pressure_matches": 56,
+        "smoothed_match_success": 0.48333333333333334,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 118,
+              "matches": 20,
+              "adjusted_runs_per_six": 1.184,
+              "evidence": "supported"
+            },
+            {
+              "context": "2023",
+              "high_balls": 49,
+              "matches": 11,
+              "adjusted_runs_per_six": 0.484,
+              "evidence": "supported"
+            },
+            {
+              "context": "2024",
+              "high_balls": 53,
+              "matches": 12,
+              "adjusted_runs_per_six": 5.333,
+              "evidence": "supported"
+            },
+            {
+              "context": "2025",
+              "high_balls": 86,
+              "matches": 17,
+              "adjusted_runs_per_six": 1.197,
+              "evidence": "supported"
+            },
+            {
+              "context": "2026",
+              "high_balls": 75,
+              "matches": 14,
+              "adjusted_runs_per_six": -0.876,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 276,
+              "matches": 48,
+              "adjusted_runs_per_six": -0.117,
+              "evidence": "supported"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 105,
+              "matches": 26,
+              "adjusted_runs_per_six": 4.91,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 152,
+              "matches": 45,
+              "adjusted_runs_per_six": 4.808,
+              "evidence": "supported"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 229,
+              "matches": 45,
+              "adjusted_runs_per_six": -1.08,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "Bangladesh",
+              "high_balls": 4,
+              "matches": 1,
+              "adjusted_runs_per_six": 16.382,
+              "evidence": "thin"
+            },
+            {
+              "context": "India",
+              "high_balls": 290,
+              "matches": 51,
+              "adjusted_runs_per_six": 0.003,
+              "evidence": "supported"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 54,
+              "matches": 15,
+              "adjusted_runs_per_six": 7.308,
+              "evidence": "supported"
+            },
+            {
+              "context": "United Kingdom",
+              "high_balls": 18,
+              "matches": 3,
+              "adjusted_runs_per_six": -6.248,
+              "evidence": "thin"
+            },
+            {
+              "context": "Zimbabwe",
+              "high_balls": 15,
+              "matches": 4,
+              "adjusted_runs_per_six": 8.981,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Spin",
+              "high_balls": 381,
+              "matches": 74,
+              "adjusted_runs_per_six": 1.269,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 129,
+              "matches": 30,
+              "adjusted_runs_per_six": 0.542,
+              "evidence": "supported"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 252,
+              "matches": 58,
+              "adjusted_runs_per_six": 1.641,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 343,
+              "matches": 67,
+              "adjusted_runs_per_six": 1.586,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 38,
+              "matches": 7,
+              "adjusted_runs_per_six": -1.599,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Ishant Sharma",
+        "id": 28,
+        "published_rank": 5,
+        "tier": "Supporting",
+        "high_matches": 9,
+        "largest_match_share": 0.211,
+        "point": -0.15896447183179538,
+        "worst_single_match_removal": -0.9718722568363029,
+        "single_match_swing": 0.8129077850045074,
+        "positive_pressure_matches": 3,
+        "meaningful_pressure_matches": 8,
+        "smoothed_match_success": 0.4166666666666667,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2023",
+              "high_balls": 16,
+              "matches": 3,
+              "adjusted_runs_per_six": -2.362,
+              "evidence": "thin"
+            },
+            {
+              "context": "2024",
+              "high_balls": 9,
+              "matches": 2,
+              "adjusted_runs_per_six": -4.724,
+              "evidence": "thin"
+            },
+            {
+              "context": "2025",
+              "high_balls": 13,
+              "matches": 4,
+              "adjusted_runs_per_six": 2.629,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 38,
+              "matches": 9,
+              "adjusted_runs_per_six": -1.214,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 28,
+              "matches": 8,
+              "adjusted_runs_per_six": -2.27,
+              "evidence": "supported"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 10,
+              "matches": 3,
+              "adjusted_runs_per_six": 1.742,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 38,
+              "matches": 9,
+              "adjusted_runs_per_six": -1.214,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 38,
+              "matches": 9,
+              "adjusted_runs_per_six": -1.214,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 11,
+              "matches": 4,
+              "adjusted_runs_per_six": 7.583,
+              "evidence": "thin"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 27,
+              "matches": 9,
+              "adjusted_runs_per_six": -4.798,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 38,
+              "matches": 9,
+              "adjusted_runs_per_six": -1.214,
+              "evidence": "supported"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Piyush Chawla",
+        "id": 23,
+        "published_rank": 6,
+        "tier": "Supporting",
+        "high_matches": 13,
+        "largest_match_share": 0.2,
+        "point": -1.9344518117786684,
+        "worst_single_match_removal": -2.685502956809773,
+        "single_match_swing": 0.7510511450311044,
+        "positive_pressure_matches": 0,
+        "meaningful_pressure_matches": 7,
+        "smoothed_match_success": 0.18181818181818182,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2023",
+              "high_balls": 39,
+              "matches": 9,
+              "adjusted_runs_per_six": -5.938,
+              "evidence": "supported"
+            },
+            {
+              "context": "2024",
+              "high_balls": 16,
+              "matches": 4,
+              "adjusted_runs_per_six": -1.336,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 55,
+              "matches": 13,
+              "adjusted_runs_per_six": -4.599,
+              "evidence": "supported"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 8,
+              "matches": 4,
+              "adjusted_runs_per_six": 6.149,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 47,
+              "matches": 11,
+              "adjusted_runs_per_six": -6.428,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 55,
+              "matches": 13,
+              "adjusted_runs_per_six": -4.599,
+              "evidence": "supported"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Spin",
+              "high_balls": 55,
+              "matches": 13,
+              "adjusted_runs_per_six": -4.599,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 30,
+              "matches": 7,
+              "adjusted_runs_per_six": -6.224,
+              "evidence": "supported"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 25,
+              "matches": 7,
+              "adjusted_runs_per_six": -2.648,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 53,
+              "matches": 12,
+              "adjusted_runs_per_six": -4.72,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 2,
+              "matches": 1,
+              "adjusted_runs_per_six": -1.38,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Ravindra Jadeja",
+        "id": 152,
+        "published_rank": 7,
+        "tier": "Substantial",
+        "high_matches": 32,
+        "largest_match_share": 0.069,
+        "point": -1.9929586848674579,
+        "worst_single_match_removal": -2.46489095609238,
+        "single_match_swing": 0.4719322712249221,
+        "positive_pressure_matches": 7,
+        "meaningful_pressure_matches": 26,
+        "smoothed_match_success": 0.3,
+        "flags": [],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 30,
+              "matches": 7,
+              "adjusted_runs_per_six": 0.649,
+              "evidence": "supported"
+            },
+            {
+              "context": "2023",
+              "high_balls": 39,
+              "matches": 9,
+              "adjusted_runs_per_six": -1.596,
+              "evidence": "supported"
+            },
+            {
+              "context": "2024",
+              "high_balls": 15,
+              "matches": 4,
+              "adjusted_runs_per_six": -6.523,
+              "evidence": "thin"
+            },
+            {
+              "context": "2025",
+              "high_balls": 34,
+              "matches": 8,
+              "adjusted_runs_per_six": -2.876,
+              "evidence": "supported"
+            },
+            {
+              "context": "2026",
+              "high_balls": 26,
+              "matches": 4,
+              "adjusted_runs_per_six": -6.637,
+              "evidence": "supported"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 124,
+              "matches": 28,
+              "adjusted_runs_per_six": -3.187,
+              "evidence": "supported"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 20,
+              "matches": 4,
+              "adjusted_runs_per_six": -0.79,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 17,
+              "matches": 5,
+              "adjusted_runs_per_six": -5.647,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 127,
+              "matches": 29,
+              "adjusted_runs_per_six": -2.48,
+              "evidence": "supported"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 124,
+              "matches": 28,
+              "adjusted_runs_per_six": -3.187,
+              "evidence": "supported"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 7,
+              "matches": 2,
+              "adjusted_runs_per_six": 10.775,
+              "evidence": "thin"
+            },
+            {
+              "context": "United Kingdom",
+              "high_balls": 7,
+              "matches": 1,
+              "adjusted_runs_per_six": -11.634,
+              "evidence": "thin"
+            },
+            {
+              "context": "West Indies",
+              "high_balls": 6,
+              "matches": 1,
+              "adjusted_runs_per_six": -1.633,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Spin",
+              "high_balls": 144,
+              "matches": 32,
+              "adjusted_runs_per_six": -2.854,
+              "evidence": "supported"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 43,
+              "matches": 11,
+              "adjusted_runs_per_six": -5.445,
+              "evidence": "supported"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 101,
+              "matches": 24,
+              "adjusted_runs_per_six": -1.751,
+              "evidence": "supported"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 128,
+              "matches": 30,
+              "adjusted_runs_per_six": -3.033,
+              "evidence": "supported"
+            },
+            {
+              "context": "1",
+              "high_balls": 16,
+              "matches": 2,
+              "adjusted_runs_per_six": -1.423,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Muhammad Farooq",
+        "id": 27373,
+        "published_rank": 8,
+        "tier": "Provisional",
+        "high_matches": 3,
+        "largest_match_share": 0.579,
+        "point": 0.969842003002781,
+        "worst_single_match_removal": 0.04741775695060206,
+        "single_match_swing": 0.922424246052179,
+        "positive_pressure_matches": 1,
+        "meaningful_pressure_matches": 2,
+        "smoothed_match_success": 0.5,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Fewer than four pressure matches"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2024",
+              "high_balls": 8,
+              "matches": 2,
+              "adjusted_runs_per_six": 5.836,
+              "evidence": "thin"
+            },
+            {
+              "context": "2025",
+              "high_balls": 11,
+              "matches": 1,
+              "adjusted_runs_per_six": -0.354,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "Emerging T20",
+              "high_balls": 8,
+              "matches": 2,
+              "adjusted_runs_per_six": 5.836,
+              "evidence": "thin"
+            },
+            {
+              "context": "T20I",
+              "high_balls": 11,
+              "matches": 1,
+              "adjusted_runs_per_six": -0.354,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Middle",
+              "high_balls": 19,
+              "matches": 3,
+              "adjusted_runs_per_six": 2.252,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "Oman",
+              "high_balls": 8,
+              "matches": 2,
+              "adjusted_runs_per_six": 5.836,
+              "evidence": "thin"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 11,
+              "matches": 1,
+              "adjusted_runs_per_six": -0.354,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Spin",
+              "high_balls": 19,
+              "matches": 3,
+              "adjusted_runs_per_six": 2.252,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 75.586,
+              "evidence": "thin"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 18,
+              "matches": 3,
+              "adjusted_runs_per_six": -1.822,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 19,
+              "matches": 3,
+              "adjusted_runs_per_six": 2.252,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Basil Hameed",
+        "id": 8638,
+        "published_rank": 9,
+        "tier": "Provisional",
+        "high_matches": 3,
+        "largest_match_share": 0.526,
+        "point": -0.42085821573977655,
+        "worst_single_match_removal": -0.9430690768099328,
+        "single_match_swing": 0.5222108610701562,
+        "positive_pressure_matches": 1,
+        "meaningful_pressure_matches": 2,
+        "smoothed_match_success": 0.5,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Fewer than four pressure matches"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 8,
+              "matches": 1,
+              "adjusted_runs_per_six": 6.038,
+              "evidence": "thin"
+            },
+            {
+              "context": "2023",
+              "high_balls": 10,
+              "matches": 1,
+              "adjusted_runs_per_six": -6.186,
+              "evidence": "thin"
+            },
+            {
+              "context": "2026",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": -0.808,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "T20I",
+              "high_balls": 19,
+              "matches": 3,
+              "adjusted_runs_per_six": -0.756,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 9,
+              "matches": 2,
+              "adjusted_runs_per_six": -7.753,
+              "evidence": "thin"
+            },
+            {
+              "context": "Middle",
+              "high_balls": 10,
+              "matches": 3,
+              "adjusted_runs_per_six": 5.541,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "Oman",
+              "high_balls": 8,
+              "matches": 1,
+              "adjusted_runs_per_six": 6.038,
+              "evidence": "thin"
+            },
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 11,
+              "matches": 2,
+              "adjusted_runs_per_six": -5.697,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Spin",
+              "high_balls": 19,
+              "matches": 3,
+              "adjusted_runs_per_six": -0.756,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 9,
+              "matches": 2,
+              "adjusted_runs_per_six": -5.404,
+              "evidence": "thin"
+            },
+            {
+              "context": "RHB",
+              "high_balls": 10,
+              "matches": 3,
+              "adjusted_runs_per_six": 3.427,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 19,
+              "matches": 3,
+              "adjusted_runs_per_six": -0.756,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Bashir Ahmad",
+        "id": 29833,
+        "published_rank": 10,
+        "tier": "Provisional",
+        "high_matches": 1,
+        "largest_match_share": 1.0,
+        "point": -1.5304334915530067,
+        "worst_single_match_removal": null,
+        "single_match_swing": null,
+        "positive_pressure_matches": 0,
+        "meaningful_pressure_matches": 1,
+        "smoothed_match_success": 0.4,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Fewer than four pressure matches"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2025",
+              "high_balls": 4,
+              "matches": 1,
+              "adjusted_runs_per_six": -18.986,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "T20I",
+              "high_balls": 4,
+              "matches": 1,
+              "adjusted_runs_per_six": -18.986,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 4,
+              "matches": 1,
+              "adjusted_runs_per_six": -18.986,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 4,
+              "matches": 1,
+              "adjusted_runs_per_six": -18.986,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 4,
+              "matches": 1,
+              "adjusted_runs_per_six": -18.986,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 4,
+              "matches": 1,
+              "adjusted_runs_per_six": -18.986,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 4,
+              "matches": 1,
+              "adjusted_runs_per_six": -18.986,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Pradeep Sangwan",
+        "id": 147,
+        "published_rank": null,
+        "tier": "Provisional",
+        "high_matches": 1,
+        "largest_match_share": 1.0,
+        "point": 1.1740030481796835,
+        "worst_single_match_removal": 1.614571979348041,
+        "single_match_swing": -0.4405689311683576,
+        "positive_pressure_matches": 0,
+        "meaningful_pressure_matches": 0,
+        "smoothed_match_success": 0.5,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Fewer than four pressure matches"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 76.999,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 76.999,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Middle",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 76.999,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 76.999,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 76.999,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 76.999,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": 76.999,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Abdul Samad",
+        "id": 7446,
+        "published_rank": null,
+        "tier": "Unrated",
+        "high_matches": 2,
+        "largest_match_share": 0.667,
+        "point": -1.0738360203059512,
+        "worst_single_match_removal": -0.6323481914977744,
+        "single_match_swing": -0.4414878288081767,
+        "positive_pressure_matches": 0,
+        "meaningful_pressure_matches": 0,
+        "smoothed_match_success": 0.5,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Fewer than four pressure matches"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2025",
+              "high_balls": 2,
+              "matches": 1,
+              "adjusted_runs_per_six": -14.572,
+              "evidence": "thin"
+            },
+            {
+              "context": "2026",
+              "high_balls": 1,
+              "matches": 1,
+              "adjusted_runs_per_six": -32.682,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "IPL",
+              "high_balls": 3,
+              "matches": 2,
+              "adjusted_runs_per_six": -20.609,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 3,
+              "matches": 2,
+              "adjusted_runs_per_six": -20.609,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "India",
+              "high_balls": 3,
+              "matches": 2,
+              "adjusted_runs_per_six": -20.609,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Spin",
+              "high_balls": 3,
+              "matches": 2,
+              "adjusted_runs_per_six": -20.609,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "RHB",
+              "high_balls": 3,
+              "matches": 2,
+              "adjusted_runs_per_six": -20.609,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 3,
+              "matches": 2,
+              "adjusted_runs_per_six": -20.609,
+              "evidence": "thin"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Virat Kohli",
+        "id": 47,
+        "published_rank": null,
+        "tier": "Unrated",
+        "high_matches": 1,
+        "largest_match_share": 1.0,
+        "point": -0.18602927356379895,
+        "worst_single_match_removal": null,
+        "single_match_swing": null,
+        "positive_pressure_matches": 0,
+        "meaningful_pressure_matches": 1,
+        "smoothed_match_success": 0.4,
+        "flags": [
+          "One match supplies over 35% of pressure balls",
+          "Fewer than four pressure matches"
+        ],
+        "context_breakdowns": {
+          "year": [
+            {
+              "context": "2022",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": -3.931,
+              "evidence": "thin"
+            }
+          ],
+          "family": [
+            {
+              "context": "T20I",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": -3.931,
+              "evidence": "thin"
+            }
+          ],
+          "phase": [
+            {
+              "context": "Death",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": -3.931,
+              "evidence": "thin"
+            }
+          ],
+          "venue_country": [
+            {
+              "context": "United Arab Emirates",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": -3.931,
+              "evidence": "thin"
+            }
+          ],
+          "pace_or_spin": [
+            {
+              "context": "Pace",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": -3.931,
+              "evidence": "thin"
+            }
+          ],
+          "batting_type": [
+            {
+              "context": "LHB",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": -3.931,
+              "evidence": "thin"
+            }
+          ],
+          "knock_out": [
+            {
+              "context": "0",
+              "high_balls": 3,
+              "matches": 1,
+              "adjusted_runs_per_six": -3.931,
+              "evidence": "thin"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

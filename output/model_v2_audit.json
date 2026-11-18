@@ -1,0 +1,413 @@
+{
+  "kind": "planning_audit_only",
+  "prepared_on": "2026-11-11",
+  "analysis_sha256": "3827541ad69224e98438b718f0cbec8d7d04ae160efe96c82a2bd39bbf2c3080",
+  "source_model_version": "1.0.0",
+  "local_only": true,
+  "categories": {
+    "bat": {
+      "eligible_players": 99,
+      "holdout": {
+        "train": "2022-2024",
+        "test": "2025-2026",
+        "common_players": 35,
+        "spearman": -0.1695,
+        "interpretation": "Exploratory association with later pressure impact. Not proof of predictive accuracy. Holdout expectations fitted on training observations only."
+      },
+      "pressure_rule_top10_overlap": {
+        "Looser pressure rules": 5,
+        "Stricter pressure rules": 5
+      },
+      "ipl_only_top10_overlap": 8,
+      "eligible_role_counts": {
+        "Lower-order batter": 23,
+        "Middle-order batter": 49,
+        "Top-order batter": 27
+      },
+      "top10_role_counts": {
+        "Lower-order batter": 4,
+        "Middle-order batter": 5,
+        "Top-order batter": 1
+      },
+      "top10_samples": [
+        {
+          "name": "Rinku Singh",
+          "high_legal_balls": 391,
+          "high_innings": 37,
+          "conditional_score_interval": [
+            71.5267,
+            96.6684
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Mahendra Singh Dhoni",
+          "high_legal_balls": 211,
+          "high_innings": 17,
+          "conditional_score_interval": [
+            55.5958,
+            95.8511
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Tristan Stubbs",
+          "high_legal_balls": 381,
+          "high_innings": 37,
+          "conditional_score_interval": [
+            60.0784,
+            93.3013
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Tim David",
+          "high_legal_balls": 394,
+          "high_innings": 43,
+          "conditional_score_interval": [
+            67.0781,
+            94.4577
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Shashank Singh",
+          "high_legal_balls": 275,
+          "high_innings": 24,
+          "conditional_score_interval": [
+            56.0993,
+            96.389
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "high_legal_balls": 751,
+          "high_innings": 55,
+          "conditional_score_interval": [
+            55.1589,
+            89.416
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "high_legal_balls": 569,
+          "high_innings": 52,
+          "conditional_score_interval": [
+            54.2815,
+            86.3606
+          ],
+          "top10_weight_scenario_frequency": 84.0
+        },
+        {
+          "name": "Jos Buttler",
+          "high_legal_balls": 193,
+          "high_innings": 18,
+          "conditional_score_interval": [
+            37.6203,
+            90.7414
+          ],
+          "top10_weight_scenario_frequency": 97.2
+        },
+        {
+          "name": "Nicholas Pooran",
+          "high_legal_balls": 461,
+          "high_innings": 43,
+          "conditional_score_interval": [
+            40.3697,
+            89.485
+          ],
+          "top10_weight_scenario_frequency": 72.2
+        },
+        {
+          "name": "Washington Sundar",
+          "high_legal_balls": 241,
+          "high_innings": 19,
+          "conditional_score_interval": [
+            39.7392,
+            89.3087
+          ],
+          "top10_weight_scenario_frequency": 49.5
+        }
+      ]
+    },
+    "bowl": {
+      "eligible_players": 84,
+      "holdout": {
+        "train": "2022-2024",
+        "test": "2025-2026",
+        "common_players": 31,
+        "spearman": 0.3399,
+        "interpretation": "Exploratory association with later pressure impact. Not proof of predictive accuracy. Holdout expectations fitted on training observations only."
+      },
+      "pressure_rule_top10_overlap": {
+        "Looser pressure rules": 7,
+        "Stricter pressure rules": 8
+      },
+      "ipl_only_top10_overlap": 6,
+      "eligible_role_counts": {
+        "Right-arm medium": 11,
+        "Right-arm Fast": 15,
+        "Right-arm fast-medium": 8,
+        "Slow left-arm orthodox": 6,
+        "Left-arm fast-medium": 3,
+        "Right-arm Leg-Break": 12,
+        "Left-arm medium": 4,
+        "Right-arm medium-fast": 12,
+        "Right-arm offbreak": 6,
+        "Left-arm medium-fast": 5,
+        "Left-arm Chinaman": 2
+      },
+      "top10_role_counts": {
+        "Right-arm medium": 1,
+        "Right-arm Fast": 1,
+        "Right-arm fast-medium": 2,
+        "Slow left-arm orthodox": 1,
+        "Left-arm fast-medium": 1,
+        "Right-arm Leg-Break": 2,
+        "Left-arm medium": 1,
+        "Right-arm medium-fast": 1
+      },
+      "top10_samples": [
+        {
+          "name": "Rasikh Salam",
+          "high_legal_balls": 138,
+          "high_innings": 19,
+          "conditional_score_interval": [
+            56.4126,
+            93.7741
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "high_legal_balls": 292,
+          "high_innings": 45,
+          "conditional_score_interval": [
+            61.8928,
+            89.5099
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Mark Adair",
+          "high_legal_balls": 115,
+          "high_innings": 22,
+          "conditional_score_interval": [
+            49.1648,
+            88.7757
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "high_legal_balls": 123,
+          "high_innings": 26,
+          "conditional_score_interval": [
+            50.3416,
+            86.1415
+          ],
+          "top10_weight_scenario_frequency": 100.0
+        },
+        {
+          "name": "Trent Boult",
+          "high_legal_balls": 197,
+          "high_innings": 38,
+          "conditional_score_interval": [
+            52.0583,
+            87.9233
+          ],
+          "top10_weight_scenario_frequency": 99.0
+        },
+        {
+          "name": "Josh Hazlewood",
+          "high_legal_balls": 206,
+          "high_innings": 41,
+          "conditional_score_interval": [
+            50.2413,
+            91.1683
+          ],
+          "top10_weight_scenario_frequency": 98.2
+        },
+        {
+          "name": "Rashid Khan",
+          "high_legal_balls": 381,
+          "high_innings": 74,
+          "conditional_score_interval": [
+            48.295,
+            86.0701
+          ],
+          "top10_weight_scenario_frequency": 99.5
+        },
+        {
+          "name": "Wanindu Hasaranga",
+          "high_legal_balls": 292,
+          "high_innings": 57,
+          "conditional_score_interval": [
+            61.175,
+            83.2911
+          ],
+          "top10_weight_scenario_frequency": 87.8
+        },
+        {
+          "name": "Khaleel Ahmed",
+          "high_legal_balls": 133,
+          "high_innings": 27,
+          "conditional_score_interval": [
+            40.7255,
+            85.2268
+          ],
+          "top10_weight_scenario_frequency": 90.2
+        },
+        {
+          "name": "Prasidh Krishna",
+          "high_legal_balls": 180,
+          "high_innings": 32,
+          "conditional_score_interval": [
+            38.7964,
+            87.9643
+          ],
+          "top10_weight_scenario_frequency": 74.8
+        }
+      ]
+    }
+  },
+  "innings_requiring_end_or_allocation_review": {
+    "count": 11,
+    "meaning": "Review flags, not proof of truncation or invalidity. Check allocated overs, rain, retirements and scorecards.",
+    "examples": [
+      {
+        "match_id": 15409,
+        "innings": 2,
+        "last_over": 17,
+        "wickets": 9,
+        "batting_team": 19,
+        "winner": 18.0,
+        "result": "India Won by 82 runs",
+        "legal_balls": 101,
+        "date": "2022-06-17"
+      },
+      {
+        "match_id": 15795,
+        "innings": 1,
+        "last_over": 12,
+        "wickets": 4,
+        "batting_team": 23,
+        "winner": 18.0,
+        "result": "India Won by 7 Wickets",
+        "legal_balls": 72,
+        "date": "2022-06-26"
+      },
+      {
+        "match_id": 18532,
+        "innings": 2,
+        "last_over": 9,
+        "wickets": 4,
+        "batting_team": 18,
+        "winner": null,
+        "result": "Match Tied",
+        "legal_balls": 54,
+        "date": "2022-11-22"
+      },
+      {
+        "match_id": 20182,
+        "innings": 2,
+        "last_over": 16,
+        "wickets": 7,
+        "batting_team": 8,
+        "winner": 4.0,
+        "result": "Punjab Kings Won by 7 Runs(D/L Method)",
+        "legal_balls": 96,
+        "date": "2023-04-01"
+      },
+      {
+        "match_id": 23674,
+        "innings": 1,
+        "last_over": 17,
+        "wickets": 7,
+        "batting_team": 78,
+        "winner": 21.0,
+        "result": "Bangladesh Won by 6 Wickets(D/L Method)",
+        "legal_balls": 102,
+        "date": "2023-07-16"
+      },
+      {
+        "match_id": 29983,
+        "innings": 2,
+        "last_over": 17,
+        "wickets": 9,
+        "batting_team": 17,
+        "winner": 20.0,
+        "result": "Australia Won by 72 Runs",
+        "legal_balls": 102,
+        "date": "2024-02-23"
+      },
+      {
+        "match_id": 31278,
+        "innings": 1,
+        "last_over": 16,
+        "wickets": 7,
+        "batting_team": 8,
+        "winner": 8.0,
+        "result": "Kolkata Knight Riders Won by 18 runs",
+        "legal_balls": 96,
+        "date": "2024-05-11"
+      },
+      {
+        "match_id": 31278,
+        "innings": 2,
+        "last_over": 16,
+        "wickets": 8,
+        "batting_team": 2,
+        "winner": 8.0,
+        "result": "Kolkata Knight Riders Won by 18 runs",
+        "legal_balls": 96,
+        "date": "2024-05-11"
+      },
+      {
+        "match_id": 48514,
+        "innings": 1,
+        "last_over": 12,
+        "wickets": 6,
+        "batting_team": 27,
+        "winner": 27.0,
+        "result": "Sri Lanka Won by 14 runs",
+        "legal_balls": 72,
+        "date": "2026-01-12"
+      },
+      {
+        "match_id": 48514,
+        "innings": 2,
+        "last_over": 12,
+        "wickets": 8,
+        "batting_team": 25,
+        "winner": 27.0,
+        "result": "Sri Lanka Won by 14 runs",
+        "legal_balls": 72,
+        "date": "2026-01-12"
+      },
+      {
+        "match_id": 48917,
+        "innings": 2,
+        "last_over": 17,
+        "wickets": 9,
+        "batting_team": 20,
+        "winner": 25.0,
+        "result": "Pakistan Won by 111 runs",
+        "legal_balls": 101,
+        "date": "2026-02-01"
+      }
+    ]
+  },
+  "implementation_findings": [
+    "Pressure definitions omit target and exact scoreboard because primary extras are missing.",
+    "Revision detection only checks non-null numeric revision fields. Some retained result descriptions explicitly contain D/L.",
+    "Phase boundaries assume a 20-over allocation. A correctly shortened innings needs verified allocation-specific phase handling.",
+    "Context cell expectations contain the scored player in descriptive mode. V2 needs cross-fitted expectations for historical assessment and fitted-then-applied expectations for forecasting.",
+    "The wicket cost, component weights, priors and confidence bonus are assumptions rather than independently validated player-selection rules.",
+    "Current per-player bootstrap freezes expectations, normalization and eligibility. It is not a joint posterior probability of top-10 membership.",
+    "Backtest eligibility uses a hardcoded 2025 activity gate with training years overwritten to bypass it. Replace with an explicit as-of date.",
+    "2025-2026 results have already been examined. They cannot become a pristine unseen test by relabeling the split."
+  ]
+}
